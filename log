@@ -1,0 +1,11 @@
+ALTER DATABASE ADD LOGFILE MEMBER '/u01/app/oracle/oradata/icon/redo03a.log' , '/u01/app/oracle/oradata/icon/redo03b.log', '/u01/app/oracle/oradata/icon/redo03c.log' to group 3;
+
+
+
+
+alter database add logfile group 4
+           ('/u01/app/oracle/oradata/icon/redo04.log', '/u01/app/oracle/oradata/icon/redo04a.log','/u01/app/oracle/oradata/icon/redo04b.log','/u01/app/oracle/oradata/icon/redo04c.log') size 50m;
+
+
+
+https://iconitconsulting.moodlecloud.com/login/index.php
