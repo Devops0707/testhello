@@ -1,0 +1,35 @@
+commands 
+*************************
+>init 6 --to restart server
+>
+>wget --to download software. copy the link and add it to wget.
+
+
+TELNET is used to change if port number is open in a system
+>telnet localhost 22
+>netstat -tulpn  -- to check which ports are in use.
+
+
+
+**i am trying to edit my http application page.
+cd /var/www/html  --application file location
+>vi index.html
+>service httpd reload -- to restart service
+>chkconfig httpd on  --to start service autimatically during startup(booting).
+
+
+**background 
+>sleep 10 & --to runn a process in the background
+>jobs  --to see the process
+>control Z to kill
+> bg %2  
+>fg %2 -- to bring it to foreground.
+
+to zip a directory
+>tar -cvf dir1.tar dir1
+>tar -xvf dir1.tar --to unzip   
+
+
+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
+
+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
